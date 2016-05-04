@@ -1,0 +1,20 @@
+* {
+	display: block;
+}
+
+p {
+	margin: 0px;
+	padding: 5px;
+}
+
+.blue {
+	background-color: #2980b9;
+}
+
+.white {
+	background-color: #ecf0f1;
+}
+
+.red {
+	background-color: #e74c3c;
+}
