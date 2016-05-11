@@ -40,7 +40,7 @@
 }
 
 /* mobile device */
-@media screen and (max-width: 720px){
+@media screen and (max-width: 400px){
 	* {
 		display: block;
 	}
@@ -55,7 +55,7 @@
 	}
 
 	.white {
-		background-color: #ecf0f1;
+		background-color: #673AB7;
 	}
 
 	.red {
@@ -81,5 +81,9 @@
 
 	img {
 		width: 200px;
+	}
+
+	title {
+		background-color: #673AB7;
 	}
 }
