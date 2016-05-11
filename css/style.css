@@ -4,7 +4,7 @@
 
 p {
 	margin: 0px;
-	padding: 20px;
+	padding: 15px;
 }
 
 .blue {
@@ -17,4 +17,8 @@ p {
 
 .red {
 	background-color: #e74c3c;
+}
+
+#form {
+	background-color: #e67e22;
 }
