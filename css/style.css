@@ -1,5 +1,4 @@
-/* PC css */
-@media screen {
+
 	* {
 		display: block;
 	}
@@ -14,7 +13,7 @@
 	}
 
 	.white {
-		background-color: #ecf0f1;
+		background-color: #673AB7;
 	}
 
 	.red {
@@ -36,54 +35,27 @@
 
 	#mairie {
 		background-color: #2c3e50;
+	}
+
+	title {
+		background-color: #D32F2F;
+		margin: 0px;
+		padding: 15px;
+		color: white;
+		font-weight: bold;
+	}
+
+/* pc device */
+@media screen{
+	img {
+		width: 500px;
 	}
 }
 
 /* mobile device */
 @media screen and (max-width: 400px){
-	* {
-		display: block;
-	}
-
-	p {
-		margin: 0px;
-		padding: 15px;
-	}
-
-	.blue {
-		background-color: #2980b9;
-	}
-
-	.white {
-		background-color: #673AB7;
-	}
-
-	.red {
-		background-color: #e74c3c;
-	}
-
-	#form {
-		background-color: #e67e22;
-		padding: 15px;
-		position: center;
-		color: #ecf0f1;
-		font-weight: bold;
-	}
-
-	input {
-		margin: 5px;
-		background-color: #DEDEDE;
-	}
-
-	#mairie {
-		background-color: #2c3e50;
-	}
-
 	img {
 		width: 200px;
 	}
-
-	title {
-		background-color: #673AB7;
-	}
 }
+	
