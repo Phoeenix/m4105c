@@ -21,4 +21,17 @@ p {
 
 #form {
 	background-color: #e67e22;
+	padding: 15px;
+	position: center;
+	color: #ecf0f1;
+	font-weight: bold;
+}
+
+input {
+	margin: 5px;
+	background-color: #DEDEDE;
+}
+
+#mairie {
+	background-color: #2c3e50;
 }
