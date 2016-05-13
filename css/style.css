@@ -1,17 +1,16 @@
 
-	* {
-		display: block;
-		font-size: 2.5vw;
-	}
 
 	body {
-		font-size: 5vw;
+		
 		background-color: #ECECEC;
+		display: block;
 	}
+
 
 	p {
 		margin: 0px;
 		padding: 15px;
+		display: block;
 	}
 
 	.blue {
@@ -24,6 +23,7 @@
 
 	.orange {
 		background-color: #F27935;
+		color: #ECF0F1;
 	}
 
 	.grey_ligth {
@@ -35,6 +35,7 @@
 	}
 
 	#form {
+
 		padding: 15px;
 		position: center;
 		color: #ecf0f1;
@@ -45,6 +46,11 @@
 	input {
 		margin: 5px;
 		background-color: #DEDEDE;
+		display: block;
+	}
+
+	label {
+		display: block;
 	}
 
 	#mairie {
@@ -79,12 +85,8 @@
 		width: 500px;
 	}
 
-	tr {
-		display: block;
-	}
-
-	td {
-		display: block;
+	* {
+		font-size: 1.3vw;
 	}
 }
 
@@ -96,6 +98,10 @@
 
 	table {
 		display: block;
+	}
+
+	body {
+		font-size: 2.5vw;
 	}
 
 }
