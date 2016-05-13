@@ -1,17 +1,17 @@
 
 	* {
 		display: block;
-		font-size: 10px;
+		font-size: 2vw;
 	}
 
 	body {
 		font-size: 5vw;
+		background-color: #ECECEC;
 	}
 
 	p {
 		margin: 0px;
 		padding: 15px;
-		font-size: 3vw;
 	}
 
 	.blue {
@@ -19,7 +19,15 @@
 	}
 
 	.white {
-		background-color: #EDEDED;
+		background-color: #ECECEC;
+	}
+
+	.orange {
+		background-color: #F27935;
+	}
+
+	.grey_ligth {
+		background-color: #DADFE1;
 	}
 
 	.red {
@@ -27,7 +35,6 @@
 	}
 
 	#form {
-		background-color: #e67e22;
 		padding: 15px;
 		position: center;
 		color: #ecf0f1;
