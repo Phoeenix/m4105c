@@ -76,7 +76,11 @@
 	table, tr, td {
     border: 1px solid #BFBFBF;
     text-align: center;
-}
+	}
+
+	table {
+		width: 100%;
+	}
 
 	
 /* pc device */
