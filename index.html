@@ -34,43 +34,69 @@
 		<div id="banniere">
 			<div id="banniere_img"></div>
 		</div>
-		<div id="p1">
+		<div id="p1" class="ming">
 			<h1>The best ships of the galaxy!</h1>
 			<p>
 				For a good trip in space you have to travel in a reliable ship...or you can die quickly...you know..VERY quickly! So Republic's space INC. can give you the best of the spaceships for your security !
 			</p>
 		</div>
 		<div id="image_group" class="bluewood">
-			<div id="ligth" class="ship">
-				<div id="ligth_icon" class="icon"></div>
-				<h3> Ligth ship</h3>
-				<p>A very ligth ship, perfect for civil use</p>
-			</div>
-
-			<div id="freigther" class="ship">
-				<div id="freigther_icon" class="icon"></div>
-				<h3> Freigther </h3>
-				<p>Be the trader (or smuggler...) of your dream with this freigther and his giant stock capacity !</p>
-			</div>
-
-			<div id="cruiser" class="ship">
-				<div id="cruiser_icon" class="icon"></div>
-				<h3> Cruiser </h3>
-				<p>Military quality cruiser...mercenary sell separately</p>
-			</div>
-
-			<div id="battleship" class="ship">
-				<div id="battleship_icon" class="icon"></div>
-				<h3> ! Battleship ! </h3>
-				<p>This giant ship is available only for our premium customers.</p>
-			</div>
-			
+			<ul>
+				<li id="ligth" class="ship">
+						<div id="ligth_icon" class="icon"></div>
+						<h3> Ligth ship</h3>
+						<p>A very ligth ship, perfect for getting started and common civil use</p>
+				</li>
+				<li id="freigther" class="ship">
+						<div id="freigther_icon" class="icon"></div>
+						<h3> Freigther </h3>
+						<p>Be the trader (or smuggler...) of your dream with this freigther and his giant stock capacity !</p>				
+				</li>
+				<li id="cruiser" class="ship">			
+						<div id="cruiser_icon" class="icon"></div>
+						<h3> Cruiser </h3>
+						<p>Military quality cruiser...Idiot mercenary sell separately</p>	
+				</li>
+				<li id="battleship" class="ship">				
+						<div id="battleship_icon" class="icon">	
+						</div>
+						<h3> ! Battleship ! </h3>
+						<p>This giant ship is available only for our premium customers.</p>				
+				</li>			
+			</ul>	
 		</div>
-		<div id="map">
+
+		<div id="map" class="ming">
 			<h2>Where find us?</h2>
 		</div>
-		<div id="form">
+
+		<div id="form" class="ming">
 			<h2>Contact</h2>
+			<form>
+
+					<input id="prenom" name="prenom" placeholder="Prenom" type="text">
+					<input id="nom" name="nom" placeholder="Nom" type="text">
+
+				
+
+					<input id="date" name="date" placeholder="Date de naissance" type="date">
+					<input id="ville" name="ville" placeholder="Ville de naissance" type="text">
+
+
+
+					<input id="mail" name="mail" placeholder="Adresse mail" type="email">
+
+
+					<input id="photo" name="photo" placeholder="Photo" type="text">
+
+
+					<textarea id="message" name="message" placeholder="Message"></textarea>
+
+
+					<input type="submit" id="envoyer" name="envoyer" value="Envoyer">
+			</form>
 		</div>
+
+		
 	</body>
 </html>

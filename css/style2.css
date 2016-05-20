@@ -14,6 +14,16 @@ div {
 	color: #ECF0F1;
 }
 
+.ming {
+	background-color: #336E7B;
+	color: #ECF0F1;
+}
+
+.white {
+	background-color: white;
+	color: black;
+}
+
 #menu{
 	background-color: #E67E22;
 	width: 100%;
@@ -61,27 +71,125 @@ div {
 	margin: auto;
 }
 
-#image_group {
+#p1 {
+	margin: auto;
 }
+
+#image_group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+#image_group ul{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding-left: 0px;
+}
+
+#image_group ul li{
+	display: inline-table;
+	width: 17vw;
+	height: 100%;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+}
+
+#image_group ul li *{
+	margin: auto;
+	margin-bottom: 1vh;
+	text-align: center;
+}
+
+#image_group ul li p{
+	text-align: justify;
+	text-justify: distribute;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+}
+
 
 .icon {
 	background-image: url("../img/logo.png");
 	background-size: contain;
 	width: 12vh;
 	height: 12vh;
+	margin-top: 0px;
 }
+
+
+
 /* PC device */
 * {
-	font-size: 3vh;
+	font-size: 3vh;	
 }
+
+#map {
+	width: 50%;
+	float: left;
+}
+
+#form {
+	width: 50%;
+	float: right;
+}
+
+input {
+	margin-bottom: 5%;
+}
+
+#prenom, #nom, #date, #ville{
+	width: 35%;
+}
+
+#prenom, #date{
+	float: left;
+	margin-left: 5%;
+}
+
+#nom, #ville, #envoyer{
+	float: right;
+	margin-right: 5%;
+}
+
+#mail, #photo, #message {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 
 /* Tablet device */
 @media screen and (max-width: 550px){
-* {
-	font-size: 3vw;
+	* {
+		font-size: 3vw;
+	}
+
+	#map {
+		width: 50%;
+		float: left;
+	}
+
+	#form {
+		width: 50%;
+		float: right;
+	}
 }
+
 /* Phone device */
-* {
-	font-size: 3vw;
-}
+@media screen and (max-width: 550px){	
+	* {
+		font-size: 3vw;
+	}
+
+	#map {
+		width: 100%;
+		float: left;
+	}
+
+	#form {
+		width: 100%;
+		float: right;
+	}
 }
