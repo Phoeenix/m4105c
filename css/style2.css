@@ -49,9 +49,17 @@ div {
 }
 
 #menu_right {
-	width: 30%;
+	width: 80%;
 	float: right;
 }
+
+#menu_right ul{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-right: 10%;
+}
+
 
 #menu_right ul li{
 	display: inline-block;
@@ -128,6 +136,13 @@ div {
 #map {
 	width: 50%;
 	float: left;
+	
+}
+
+#googleMap {
+	width: 90%;
+	height: 315px;
+	margin: auto;
 }
 
 #form {
@@ -175,6 +190,8 @@ input {
 		width: 50%;
 		float: right;
 	}
+
+
 }
 
 /* Phone device */
